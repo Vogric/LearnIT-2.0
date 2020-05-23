@@ -12,29 +12,35 @@
 
 <body>
     <div class="gral-container">
-        <div class="header">
-            <div class="logo"><img src="Images/logo-learnit.png" alt=""></div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="HTML-Folder/courses.html">Courses</a>
-                    </li>
-                    <li>
-                        <a href="HTML-Folder/learn-now.html">Learn now</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="greeting-welcome">
-            <h1>Your course to success</h1>
-            <p><strong>Gain skills with online courses</strong>, certificates and degrees offered by the world's leading
-                universities and companies.</p>
-        </div>
-        <div class="home-main">
-            <div class="why-learn-with-us">
+        <header class="home-header">
+            <div class="top-header">
+                <div class="logo">
+                    <img src="Images/logo-learnit.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="HTML-Folder/courses.html">Courses</a>
+                        </li>
+                        <li>
+                            <a href="HTML-Folder/learn-now.html">Learn now</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <header class="heading">
+                <h1>Your course to success</h1>
+                <p><strong>Gain skills with online courses</strong>, certificates and degrees offered by the world's
+                    leading
+                    universities and companies.</p>
+            </header>
+        </header>
+
+        <main class="main-header">
+            <section class="why-learn-with-us">
                 <h2>¿Why learn with us?</h2>
                 <div class="about-us">
                     <div class="data-about-us">
@@ -64,9 +70,8 @@
                         <h3>Student-centered care</h3>
                     </div>
                 </div>
-
-            </div>
-            <div class="information-offered">
+            </section>
+            <section class="information-offered">
                 <div class="info-support">
                     <img src="Images/home/info/tecnical-mentor-support-experience.jpg" alt="">
                     <div class="information-content">
@@ -91,54 +96,62 @@
                             to the next level.</p>
                     </div>
                 </div>
-            </div>
-            <div class="experiences">
+            </section>
+            <section class="experiences">
                 <h2>Some experiences</h2>
-                <div class="block-experiences">
-                    <div class="experience-content">
+                <article class="block-experiences">
+                    <article class="experience-content">
                         <img src="Images/home/experiences/first-student.png" alt="first-student">
                         <h3>ISABELLA</h3>
                         <p>"One of the things that attracted me to LearnIT was a curriculum developed by people that
                             worked for some of the biggest and most successful tech companies.”</p>
                         <h4>NOW AT Lead Data Scientist<h4>
-                    </div>
-                    <div class="experience-content">
+                    </article>
+                    <article class="experience-content">
                         <img src="Images/home/experiences/second-student.png" alt="second-student">
                         <h3>DAVID</h3>
                         <p>"I got my start in front-end development thanks to LearnIT, and this was a gateway to a new
                             career. I got a full-time job after just two months with the Front-End Frameworks"</p>
                         <h4>NOW AT Application Developer<h4>
-                    </div>
-                    <div class="experience-content">
+                    </article>
+                    <article class="experience-content">
                         <img src="Images/home/experiences/third-student.png" alt="third-student">
                         <h3>ANDREA</h3>
                         <p>"Gave me a new path to my programming career and I achieved huge confidence to start my own
                             tech labs. LearnIT helped me discover my passion and now I love what I do!"</p>
                         <h4>NOW AT Digital Humanities Lab<h4>
-                    </div>
-                </div>
-            </div>
-            <div class="frequent-questions">
+                    </article>
+                </article>
+            </section>
+            <section class="frequent-questions">
                 <h4>Frequent questions</h4>
-                <h5>What payment options are there?</h5>
-                <p>In Hispanic America: credit or debit card, and bank transfer. In Iberian America: credit or debit
-                    card, and transfer through Secure Online Payments. In Europe: credit, debit card or Paypal. And in
-                    the rest of the world: credit card.</p>
-                <h5>Do you offer financing options for careers?</h5>
-                <p> At LearnIT we maintain the commitment that all interested people can achieve their training
-                    objective. That is why we offer you the possibility of paying your degree in up to 12 fixed monthly
-                    payments, without interest and without intermediaries.</p>
-                <h5> When should I reserve my place?</h5>
-                <p>The sooner the better! The groups have a limited capacity of 25 students to ensure the quality of
-                    your learning, and that of your peers.</p>
-            </div>
-        </div>
+                <section>
+                    <h5>What payment options are there?</h5>
+                    <p>In Hispanic America: credit or debit card, and bank transfer. In Iberian America: credit or debit
+                        card, and transfer through Secure Online Payments. In Europe: credit, debit card or Paypal. And
+                        in
+                        the rest of the world: credit card.</p>
+                </section>
+                <section>
+                    <h5>Do you offer financing options for careers?</h5>
+                    <p> At LearnIT we maintain the commitment that all interested people can achieve their training
+                        objective. That is why we offer you the possibility of paying your degree in up to 12 fixed
+                        monthly
+                        payments, without interest and without intermediaries.</p>
+                </section>
+                <section>
+                    <h5> When should I reserve my place?</h5>
+                    <p>The sooner the better! The groups have a limited capacity of 25 students to ensure the quality of
+                        your learning, and that of your peers.</p>
+                </section>
+            </section>
+        </main>
         <footer>
-            <div class="logos">
-                <div class="logo-learnit">
+            <figure class="logos">
+                <figcaption class="logo-learnit">
                     <img src="Images/logo-learnit.png" alt="logo-learnit">
-                </div>
-                <div class="socials-icons">
+                </figcaption>
+                <figure class="socials-icons">
                     <ul>
                         <li><img src="Images/icons/slack.png" alt="slack"></li>
                         <li><img src="Images/icons/whatsapp.png" alt="whatsapp"></li>
@@ -148,9 +161,9 @@
                         <li><img src="Images/icons/linkedin.png" alt="linkedin"></li>
                         <li><img src="Images/icons/youtube.png" alt="youtube"></li>
                     </ul>
-                </div>
-            </div>
-            <div class="footer-information">
+                </figure>
+            </figure>
+            <section class="footer-information">
                 <ul>
                     <li>
                         <h4>COURSES</h4>
@@ -203,7 +216,7 @@
                     <li>University of California, Berkeley</li>
                     <li>National University of the Center of the Buenos Aires Province</li>
                 </ul>
-            </div>
+            </section>
             <p class="copyright">TPE WEB TUDAI | Magalí Menchón - Braian Vogrič | LearnIT © 2020</p>
         </footer>
     </div>
