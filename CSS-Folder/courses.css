@@ -1,4 +1,104 @@
 .gral-container {
+  background-image: url(../Images/courses/background-courses.jpg);
+  color: white;
+  font-family: sans-serif;
+}
+/* COURSES PRESENTATION-------------------------------------------------------*/
+
+.courses-presentation {
+  text-shadow: 0.0625rem 0.125rem black;
+  text-align: center;
+  margin: 50px 20px 10px 20px;
+}
+
+.courses-presentation h1 {
+  font-size: 2.25rem;
+  margin: 0.3125rem;
+}
+
+.courses-presentation p {
+  font-size: 1.25rem;
+  margin: 0rem;
+}
+
+.courses-presentation span {
+  color: rgb(253, 236, 0);
+}
+
+/* OFFERED COURSES-------------------------------------------------------*/
+
+.offered-courses {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.offered-courses .course {
+  width: 16.875rem;
+  background-color: white;
+  border: 0.625rem solid #4a7d6b;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.offered-courses img {
+  width: 10rem;
+  height: 10em;
+  margin: 0.125rem 0rem 0rem 0rem;
+}
+
+.offered-courses h2 {
+  color: #2a454e;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0rem;
+}
+
+/*GENERAL INFORMATION OF COURSES ------------------------------------*/
+
+.general-information-courses {
+  margin-top: 1.4375rem;
+  font-size: 1.125rem;
+  font-family: sans-serif;
+  text-shadow: 0.0625rem 0.125rem black;
+}
+.general-information-courses h1 {
+  font-size: 2.5rem;
+  text-shadow: 0.125rem 0.125rem black;
+  text-align: center;
+}
+.general-information-courses h2 img {
+  width: 3.75rem;
+  height: 3.75rem;
+  padding-right: 1rem;
+}
+.general-information-courses ul {
+  list-style: none;
+  padding-bottom: 1.25rem;
+  margin: 0rem;
+}
+.general-information-courses li {
+  padding-bottom: 1.25rem;
+  margin-top: 0rem;
+  margin-right: 2rem;
+}
+
+/*TABLE-----------------------------------------------*/
+
+/*table th, table td {
+  padding: 9px;
+  font-family: sans-serif;
+  background-color: #a35dff54;
+}
+*/
+
+/* Media Query Desktop*/
+
+@media only screen and (min-width: 1178px) {
+  
+.gral-container {
   height: 2025px;
   background-image: url(../Images/courses/background-courses.jpg);
 }
@@ -102,4 +202,6 @@ table th, table td {
   padding: 9px;
   font-family: sans-serif;
   background-color: #a35dff54;
+}
+
 }
