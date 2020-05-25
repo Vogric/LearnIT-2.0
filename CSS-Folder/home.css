@@ -14,6 +14,7 @@ body{
 .header {
   display: flex;
   justify-content: space-between;
+  height: 4rem;
 }
 .logo{
   height: 5.875rem;
@@ -22,29 +23,52 @@ body{
   width: 6.125rem;
   height: 5.875rem;
 }
+
+.hide-bar{
+  display: none;
+}
+
 .menu-button{
   background: none;
   border: 0;
+  margin-right: 2rem;
+  margin-top: 1rem;
 }
+.menu-button:focus{
+    outline: none;
+}
+
 .menu-button img {
   width: 2.5rem;
   height: 2.5rem;
-  margin-right: 6rem;
-  margin-top: 1rem;
 }
-nav a{
-  display: none;
+
+nav ul{
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 2px black;
+  list-style: none;
+  padding-inline-start: 0;
 }
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  background-color: #313131;
+}
+
+
+
 /*  GREETING WELCOME-------------------------------------------------------*/
 
 .greeting-welcome {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
   margin: 1.875rem 1.25rem 2rem 1.25rem;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 0.0625rem 0.125rem black;
+  width: 70%;
 }
 .greeting-welcome h1 {
   margin: 0rem;
@@ -262,26 +286,30 @@ footer {
   width: 162px;
   height: 142px;
 }
-
-nav {
+.hide-bar{
+  display: flex;
+}
+.menu-button {
+  display: none;
+}
+nav ul{
   margin-top: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  width: 1080px;
   height: 60px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   text-shadow: 1px 2px black;
+  list-style: none;
 }
-.menu-button {
-  display: none;
-}
-nav a {
+
+nav li a {
   display: flex;
   padding: 35px;
   text-decoration: none;
   color: white;
+  background: none;
 }
 
 /*  GREETING WELCOME-------------------------------------------------------*/

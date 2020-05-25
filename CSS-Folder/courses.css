@@ -1,5 +1,7 @@
 .gral-container {
   background-image: url(../Images/courses/background-courses.jpg);
+  background-repeat: repeat;
+  background-size: cover;
   color: white;
   font-family: sans-serif;
 }
@@ -86,13 +88,16 @@
 }
 
 /*TABLE-----------------------------------------------*/
-
-/*table th, table td {
-  padding: 9px;
+table {
+  width: 100%;
+}
+table th, table td {
+  padding: 1vh;
+  font-size: 1.2vw;
   font-family: sans-serif;
   background-color: #a35dff54;
 }
-*/
+
 
 /* Media Query Desktop*/
 

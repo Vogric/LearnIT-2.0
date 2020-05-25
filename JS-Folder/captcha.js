@@ -23,12 +23,3 @@ CreateCaptcha();
 
 let verification = document.querySelector('#button-check');
 verification.addEventListener("click", ValidCaptcha);
-
-/*------------------BUTTON-MENU----------------------------------*/
-
-/*document.querySelector("#menu-button").addEventListener("click", ShowNav);
-
- function ShowNav(){
-    document.querySelector("#link").classList.toggle("show-link");
- }
-*/
