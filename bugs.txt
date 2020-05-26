@@ -1,0 +1,2 @@
+Courses  --> General Information, corregi mobile y se cambio en desktop, se debe estar pisando 
+alguna propiedad de display flex

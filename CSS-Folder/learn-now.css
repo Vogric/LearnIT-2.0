@@ -8,11 +8,9 @@
 /* LEARN NOW MAIN------------------------------------ */
 
 .learn-now-main {
-  margin-top: 1.875rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 9.375rem;
 }
 
 .learn-now-main span {

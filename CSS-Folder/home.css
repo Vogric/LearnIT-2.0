@@ -20,8 +20,9 @@ body{
   height: 5.875rem;
 }
 .logo img {
-  width: 6.125rem;
-  height: 5.875rem;
+  width: 5.125rem;
+  height: 4.875rem;
+  margin-top: 0.4rem;
 }
 
 .hide-bar{
@@ -31,7 +32,7 @@ body{
 .menu-button{
   background: none;
   border: 0;
-  margin-right: 2rem;
+  margin-right: 1rem;
   margin-top: 1rem;
 }
 .menu-button:focus{
@@ -39,21 +40,22 @@ body{
 }
 
 .menu-button img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 nav ul{
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 1px 2px black;
   list-style: none;
   padding-inline-start: 0;
+      font-size: 6.9vh;
+    text-align: end;
 }
 
 nav li a {
   text-decoration: none;
-  color: white;
-  background-color: #313131;
+  color: #ffd400;
+  background-color: #2e2e2e;
 }
 
 
@@ -65,19 +67,17 @@ nav li a {
   flex-direction: column;
   align-items: flex-start;
   margin: 1.875rem 1.25rem 2rem 1.25rem;
-  color: white;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 0.0625rem 0.125rem black;
-  width: 70%;
 }
 .greeting-welcome h1 {
-  margin: 0rem;
-  font-size: 1.5rem;
+  font-size: 6vh;
+  margin-top: 32vh;
 }
 
 .greeting-welcome p {
-  font-size: 0.5rem;
-  color: #ffeb00;
+  font-size: 4vh;
+  color: #333333;
 }
 
 /* HOME-MAIN------------------------------------------------------- */
@@ -93,24 +93,23 @@ nav li a {
 }
 
 .home-main h2 {
-  font-size: 2.4375rem;
+  font-size: 2.1rem;
 }
 
 /*WHY LEARN WITH US------------------------------------------------------- */
 
 .why-learn-with-us {
   text-align: center;
-  margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
-.why-learn-with-us .about-us {
-  padding-top: 2.0625rem;
-}
 
-.why-learn-with-us .data-about-us {
+.data-about-us h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 .why-learn-with-us .data-about-us img {
-  margin: 0.625rem;
+  margin: 2rem;
+  width: 20%;
 }
 
 /*  INFORMATION OFFERED------------------------------------------------------- */
@@ -133,9 +132,11 @@ nav li a {
 }
 .information-content h3{
   text-align: center;
+  font-size: 1.6rem;
 }
 .information-content p{
-  text-align: justify;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .information-offered img {
@@ -147,17 +148,10 @@ nav li a {
 .experiences {
   text-align: center;
 }
-.block-experiences {
-
-}
-
-.experiences h2 {
-
-}
 
 .experiences p {
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-family: serif;
 }
 
@@ -177,15 +171,16 @@ nav li a {
 
 .frequent-questions h4 {
   text-align: center;
-  font-size: 3.125rem;
+  font-size: 2.5rem;
+  margin: 2rem 0 4rem 0;
 }
 
 .frequent-questions h5 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .frequent-questions p {
-  font-size: 0.8625rem;
+  font-size: 1.2rem;
 }
 
 /* FOOTER ------------------------------------------- */
@@ -195,17 +190,18 @@ footer {
   font-family: sans-serif;
 }
 
-.logos {
-
+.logo-learnit {
+  display: flex;
+  justify-content: center;
 }
 
 .logos .logo-learnit img {
-  width: 8.8125rem;
-  height: 8.125rem;
+  width: 35%;
+  margin: 1rem;
 }
 
 .socials-icons {
-  width: 90%;
+  padding: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,7 +211,8 @@ footer {
   width: 26.375rem;
   display: flex;
   list-style: none;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0;
 }
 
 /* FOOTER INFORMATION-------------------------------------------------------*/
@@ -236,13 +233,14 @@ footer {
 
 .footer-information ul li {
   padding: 0.375rem;
+  font-size: 0.9rem;
 }
 
 .copyright {
   margin: 0;
   padding: 1rem 0 1rem 0;
   text-align: center;
-  font-size: 0.61rem;
+  font-size: 0.7rem;
 }
 
 /* Media Query Desktop*/
@@ -327,6 +325,7 @@ nav li a {
   font-size: 77px;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 1px 2px black;
+  color: white;
 }
 
 .greeting-welcome p {

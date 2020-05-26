@@ -43,6 +43,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0.8rem;
 }
 
 .offered-courses img {
@@ -67,24 +68,29 @@
   text-shadow: 0.0625rem 0.125rem black;
 }
 .general-information-courses h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-shadow: 0.125rem 0.125rem black;
   text-align: center;
+  margin: 3rem;
 }
-.general-information-courses h2 img {
-  width: 3.75rem;
-  height: 3.75rem;
-  padding-right: 1rem;
+
+.general-information-courses h2{
+  font-size: 2rem;
+}
+
+.general-information-courses img {
+  width: 43%;
+  padding-right: 5rem;
 }
 .general-information-courses ul {
   list-style: none;
-  padding-bottom: 1.25rem;
-  margin: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 3rem 2rem 3rem;
 }
 .general-information-courses li {
   padding-bottom: 1.25rem;
-  margin-top: 0rem;
-  margin-right: 2rem;
 }
 
 /*TABLE-----------------------------------------------*/
