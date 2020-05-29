@@ -44,7 +44,7 @@ body{
   height: 1.5rem;
 }
 
-nav ul{
+/* nav ul{
   font-family: Arial, Helvetica, sans-serif;
   list-style: none;
   padding-inline-start: 0;
@@ -56,13 +56,28 @@ nav li a {
   text-decoration: none;
   color: #ffd400;
   background-color: #2e2e2e;
+} */
+
+
+nav ul{
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 2px black;
+  list-style: none;
+  padding-inline-start: 0;
 }
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  background-color: #313131;
+}
+
 
 
 
 /*  GREETING WELCOME-------------------------------------------------------*/
 
-.greeting-welcome {
+/* .greeting-welcome {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -78,6 +93,26 @@ nav li a {
 .greeting-welcome p {
   font-size: 4vh;
   color: #333333;
+} */
+
+.greeting-welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1.875rem 1.25rem 2rem 1.25rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0.0625rem 0.125rem black;
+  width: 70%;
+}
+.greeting-welcome h1 {
+  margin: 0rem;
+  font-size: 1.5rem;
+}
+
+.greeting-welcome p {
+  font-size: 0.5rem;
+  color: #ffeb00;
 }
 
 /* HOME-MAIN------------------------------------------------------- */
