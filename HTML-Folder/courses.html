@@ -101,20 +101,34 @@
                 </li>
             </ul>
         </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>COURSE</th>
-                    <th>DURATION</th>
-                    <th>TIME COMMITMENT</th>
-                    <th>SUBJECT</th>
-                    <th>DIFFICULTY</th>
-                    <th>TOPIC(S)</th>
-                </tr>
-            </thead>
-            
-            <tbody>
-                <!-- <tr>
+
+        <section>
+            <form>
+                <h3>Complete de table here:</h3>
+                <label>Course:</label>
+                <input id="course" type="text">
+                <label>Duration:</label>
+                <input id="duration" type="text">
+                <label>Subject:</label>
+                <input id="subject" type="text">
+                <label>Topics:</label>
+                <input id="topics" type="text">
+                <input id="button-add" type="button" value="Add item">
+                <input id="button-add-three" type="button" value="Add three items">
+                <input id="button-deleted" type="button" value="Deleted all">
+            </form>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>COURSE</th>
+                        <th>DURATION</th>
+                        <th>SUBJECT</th>
+                        <th>TOPICS</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tbody">
+                    <!-- <tr>
                     <td>Pre-Programming</td>
                     <td>11 weeks long</td>
                     <td>10-20 hours per week</td>
@@ -178,8 +192,9 @@
                     <td>Introductory</td>
                     <td>Security technologies - Risk management - Attacks</td>
                 </tr> -->
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </section>
     </div>
 </body>
 
