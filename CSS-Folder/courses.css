@@ -123,6 +123,7 @@
 
 table {
   width: 100%;
+  padding-bottom: 2vw;
 }
 table th, table td {
   padding: 1vh;
@@ -137,7 +138,7 @@ table th, table td {
 @media only screen and (min-width: 1176px) {
   
 .gral-container {
-  height: 2250px;
+  height: auto;
 }
 
 /* COURSES PRESENTATION-------------------------------------------------------*/
@@ -164,7 +165,6 @@ table th, table td {
 
 .offered-courses {
   width: 100%;
-  height: 499px;
 }
 
 .offered-courses .course {
@@ -205,17 +205,13 @@ table th, table td {
 /*TABLE-----------------------------------------------*/
 
 .complete-table input{
-  width: 12%;
+  width: 15%;
 }
 
-.btn-table-form{
-  font-size: 1.5vh;
-}
-
+.btn-table-form,
 .btn-deletedAll{
-  font-size: 1.5vh;
+  font-size: 1rem;
 }
-
 
 table th, table td {
   padding: 9px;
