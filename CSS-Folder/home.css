@@ -16,6 +16,9 @@ body{
   justify-content: space-between;
   height: 4rem;
 }
+figure{
+  margin:0;
+}
 .logo{
   height: 5.875rem;
 }
