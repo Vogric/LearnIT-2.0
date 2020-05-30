@@ -34,22 +34,11 @@ function StartPage(){
     console.log(arr_table);
 
     buttonAddItem.addEventListener('click', ()=>{
-        for(let indexRow = 0; indexRow < arr_table.length; indexRow++){
-            AddTable(arr_table, tbody);
-        }
+            AddJSON();
     }
     );
 
     buttonDeletedAll.addEventListener('click', ()=>{
-        /*
-        for(let indexRow = 0; indexRow < arr_table.length; indexRow++){
-            let tr = document.querySelector(__);
-            tbody.removeChild(tr);
-        }
-        */
-       /*
-        table.removeChild(tbody);
-        */
         let tbodyclean= document.createElement("tbody");
         table.replaceChild(tbodyclean,tbody);
         tbody = tbodyclean;
@@ -67,15 +56,16 @@ function StartPage(){
     );
 
     function ShowPredeterminates(){
-        for(let indexRow = 0; indexRow < arr_table.length; indexRow++){
-            AddTable(arr_table, tbody);
+        for(let index = 0; index < arr_table.length; index++){
+            AddTable(arr_table, tbody, index);
         }
     }
 
     function AddJSON(){
         let item = CreateItem(valueCourse, valueDuration, valueSubject, valueTopics);
         AddInArray(arr_table, item);
-        AddTable(arr_table, tbody);
+        let lastPosition = arr_table.length -1;
+        AddTable(arr_table, tbody, lastPosition);
         console.log(arr_table);
     }
 
@@ -91,11 +81,8 @@ function StartPage(){
     function AddInArray (arr_table,item){
         arr_table.push(item);
     }
-    function AddTable(arr_table, tbody){
-        /* */
-        /*for(let indexRow = 0; indexRow < arr_table.length; indexRow++){*/
+    function AddTable(arr_table, tbody, indexRow){
             /*create row*/
-            let indexRow = arr_table.length -1;
             let tr= document.createElement("tr");
             /*load data courses in 1 cell*/
             let td1 = document.createElement("td");
@@ -119,7 +106,6 @@ function StartPage(){
 
            /*load row in 1 tbody*/
             tbody.appendChild(tr);
-        /*}*/
     }
 
 }
