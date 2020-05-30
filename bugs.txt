@@ -1,2 +1,10 @@
-Courses  --> General Information, corregi mobile y se cambio en desktop, se debe estar pisando 
-alguna propiedad de display flex
+cs-----------------------------------
+diseño de botones de la tabla
+limpiar courses
+------html--------------------------------
+reescribir semantica a los 3 archivos
+js----------------------------------
+checkear si funcion arrow se escribe asi
+checkear si se mejora delete o se hace de otra manera
+checkarr si mejorar codigo table js
+hacer opcional de table js
