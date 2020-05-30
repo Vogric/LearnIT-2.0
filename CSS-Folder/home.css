@@ -32,7 +32,8 @@ body{
 .menu-button{
   background: none;
   border: 0;
-  margin-right: 1rem;
+  margin-left: 26vh;
+  margin-right: 2vh;
   margin-top: 1rem;
 }
 .menu-button:focus{
@@ -63,7 +64,9 @@ nav ul{
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 1px 2px black;
   list-style: none;
-  padding-inline-start: 0;
+  font-size: 5vh;
+  text-align: end;
+  padding-right: 2vh;
 }
 
 nav li a {
