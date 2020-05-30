@@ -1,6 +1,5 @@
-cs-----------------------------------
-diseño de botones de la tabla
-limpiar courses
+revisar mobile first- rem px 
+
 ------html--------------------------------
 reescribir semantica a los 3 archivos
 js----------------------------------
