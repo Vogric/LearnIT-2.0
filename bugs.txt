@@ -1,9 +1,0 @@
-revisar mobile first- rem px 
-
-------html--------------------------------
-reescribir semantica a los 3 archivos
-js----------------------------------
-checkear si funcion arrow se escribe asi
-checkear si se mejora delete o se hace de otra manera
-checkarr si mejorar codigo table js
-hacer opcional de table js

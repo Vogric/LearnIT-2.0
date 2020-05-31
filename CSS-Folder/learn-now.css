@@ -24,7 +24,7 @@ h1 {
   text-align: center;
   text-shadow: 0.0625rem 0.125rem black;
 }
-/* inscription------------------------------------ */
+/* INSCRIPTION------------------------------------ */
 .inscription {
   width: 100%;
   font-family: sans-serif;
@@ -122,90 +122,50 @@ textarea {
 @media only screen and (min-width: 1178px) {
 
 .gral-container {
-  height: 1648px;
+  height: 102.9375rem;
 }
 
 /* LEARN NOW MAIN------------------------------------ */
 
 .learn-now-main {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   width: 100%;
-  height: 967px;
-  margin-bottom: 150px;
+  height: 60.4375rem;
+  margin-bottom: 9.375rem;
 }
 
 h1 {
   width: 100%;
-  height: 50px;
-  margin-top: 38px;
-  font-size: 40px;
-  text-shadow: 1px 2px black;
+  height: 3.125rem;
+  margin-top: 2.375rem;
 }
-
+/* INSCRIPTION------------------------------------ */
 .inscription {
-  width: 1000px;
-  height: 800px;
+  width: 62.5rem;
+  height: 50rem;
   display: flex;
-  text-shadow: 1px 2px black;
 }
 
 .checkbox-courses {
-  width: 500px;
+  width: 31.25rem;
 }
 
 .checkbox-courses ul {
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 1.25rem;
 }
 
 .checkbox-courses ul h2 {
-  font-size: 68px;
-  text-shadow: 4px 3px black;
-  margin-bottom: 35px;
-}
-
-.checkbox-courses li {
-  margin-top: 25px;
-  padding: 7px;
-}
-
-input:checked {
-  height: 25px;
-  width: 25px;
-  box-shadow: 0 0 0 3px;
+  font-size: 4.25rem;
 }
 
 /* FORM------------------------------------*/
 
 .form {
-  width: 500px;
+  width: 31.25rem;
 }
 
 form {
   width: 73%;
-  font-size: 16px;
-}
-
-form h2 {
-  font-size: 25px;
-}
-
-form label {
-  margin-top: 14px;
-}
-
-form input,
-select,
-textarea {
-  font-size: 16px;
-  padding: 3px 4px 2px 4px;
-}
-
-
-.register {
-  height: 36px;
-  font-size: 22px;
-  margin-bottom: 11px;
 }
 
 }

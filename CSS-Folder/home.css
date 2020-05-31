@@ -244,9 +244,9 @@ footer {
 
 .copyright {
   margin: 0;
-  padding: 1rem 0 1rem 0;
+  padding: 0.5rem;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.62rem;
 }
 
 /* Media Query Desktop*/
@@ -254,12 +254,9 @@ footer {
 @media only screen and (min-width: 1178px) {
   
 .gral-container {
-  width: 100%;
-  max-width: 1350px;
-  height: 800px;
+  max-width: 84.375rem;
+  height: 50rem;
   margin: auto;
-  background-image: url(../Images/home/background-home.jpeg);
-  background-size: 100% 100%;
 
   /* flex-box */
   display: flex;
@@ -272,21 +269,21 @@ footer {
 .header {
   background-image: none;
   width: 100%;
-  height: 42px;
+  height: 2.625rem;
 }
 
 .logo {
-  margin-top: 10px;
-  width: 227px;
-  height: 150px;
+  margin-top: 0.625rem;
+  width: 14.1875rem;
+  height: 9.375rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .logo img {
-  width: 162px;
-  height: 142px;
+  width: 10.125rem;
+  height: 8.875rem;
 }
 .hide-bar{
   display: flex;
@@ -295,9 +292,9 @@ footer {
   display: none;
 }
 nav ul{
-  margin-top: 25px;
-  font-size: 30px;
-  height: 60px;
+  margin-top: 1.5625rem;
+  font-size: 1.875rem;
+  height: 3.75rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -306,7 +303,7 @@ nav ul{
 
 nav li a {
   display: flex;
-  padding: 35px;
+  padding: 2.1875rem;
   background: none;
 }
 
@@ -314,23 +311,23 @@ nav li a {
 
 .greeting-welcome {
   width: 100%;
-  height: 648px;
+  height: 40.5rem;
   align-items: flex-end;
-  margin: 110px 20px 0px 0px;
+  margin: 6.875rem 1.25rem 0rem 0rem;
 }
 .greeting-welcome h1 {
-  margin: 0px;
-  font-size: 77px;
+  margin: 0rem;
+  font-size: 4.8125rem;
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 1px 2px black;
+  text-shadow: 0.0625rem 0.125rem black;
   color: white;
 }
 
 .greeting-welcome p {
-  width: 700px;
-  font-size: 26px;
+  width: 43.75rem;
+  font-size: 1.625rem;
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 1px 2px black;
+  text-shadow: 0.0625rem 0.125rem black;
   color: #ffeb00;
 }
 
@@ -338,48 +335,46 @@ nav li a {
 
 .home-main {
   width: 100%;
-  height: 4000px;
-  text-shadow: 1px 2px white;
+  height: 250rem;
 }
 
 .home-main h2 {
-  font-size: 55px;
+  font-size: 3.4375rem;
 }
 
 /*WHY LEARN WITH US------------------------------------------------------- */
 
 .why-learn-with-us {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
 }
 .why-learn-with-us .about-us {
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
-  padding-top: 33px;
+  width: 62.5rem;
+  padding-top: 2.0625rem;
 }
 
 .why-learn-with-us .data-about-us {
   display: flex;
-  width: 400px;
-  margin: 30px 0px 30px 100px;
+  width: 25rem;
+  margin: 1.875rem 0rem 1.875rem 6.25rem;
 }
 .why-learn-with-us .data-about-us img {
-  margin: 10px;
+  margin: 0.625rem;
 }
 
 /*  INFORMATION OFFERED------------------------------------------------------- */
 
 .information-offered {
-  width: 1076px;
-  height: 1150px;
+  width: 67.25rem;
+  height: 71.875rem;
 }
 
 .info-support,
 .info-real-proyect,
 .info-dream-job {
-  height: 300px;
-  margin: 25px;
+  height: 18.75rem;
   flex-direction: row;
 }
 
@@ -388,12 +383,12 @@ nav li a {
 }
 
 .information-content {
-  font-size: 25px;
-  padding: 35px 50px 0px 50px;
+  font-size: 1.5625rem;
+  padding: 2.1875rem 3.125rem 0rem 3.125rem;
 }
 
 .information-offered img {
-  border-color: 4px black;
+  border-color: 0.25rem black;
 }
 .information-content h3{
   text-align: inherit;
@@ -404,7 +399,7 @@ nav li a {
 /*  EXPERIENCES------------------------------------------------------- */
 
 .experiences {
-  margin-bottom: 130px;
+  margin-bottom: 8.125rem;
 }
 .block-experiences {
   display: flex;
@@ -413,37 +408,33 @@ nav li a {
 
 .experiences h2 {
   width: 100%;
-  margin-bottom: 90px;
+  margin-bottom: 5.625rem;
 }
 
 .experiences p {
-  height: 250px;
-  width: 250px;
-  font-size: 25px;
-}
-
-.experiences img {
-  margin: 10px;
+  height: 15.625rem;
+  width: 15.625rem;
+  font-size: 1.5625rem;
 }
 
 /* FREQUENT QUESTIONS-------------------------------------------------------*/
 
 .frequent-questions {
-  width: 1000px;
+  width: 62.5rem;
 }
 
 .frequent-questions h4 {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 .frequent-questions h5 {
   width: 100%;
-  font-size: 30px;
-  margin: 40px 0px;
+  font-size: 1.875rem;
+  margin: 2.5rem 0rem;
 }
 
 .frequent-questions p {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 /* FOOTER ------------------------------------------- */
@@ -454,13 +445,13 @@ footer {
 
 .logos {
   width: 100%;
-  height: 108px;
+  height: 6.75rem;
   display: flex;
 }
 
 .logos .logo-learnit img {
-  width: 141px;
-  height: 130px;
+  width: 8.8125rem;
+  height: 8.125rem;
 }
 
 .socials-icons {
@@ -468,7 +459,7 @@ footer {
 }
 
 .socials-icons ul {
-  width: 390px;
+  width: 24.375rem;
   justify-content: space-around;
 }
 
@@ -476,28 +467,14 @@ footer {
 
 .footer-information {
   width: 100%;
-  margin-top: 20px 0px 10px 0px;
+  margin-top: 1.25rem 0rem 0.625rem 0rem;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid white;
-}
-
-.footer-information ul {
-  margin-top: 30px;
-  margin-right: 30px;
-}
-
-.footer-information h4 {
-  margin: 10px 0px 0px 0px;
-}
-
-.footer-information ul li {
-  padding: 6px;
 }
 
 .copyright {
   padding: 0 0 0.75rem 0;
-  margin-top: 15px;
-  font-size: 12px;
+  margin-top: 0.9375rem;
+  font-size: 0.75rem;
 }
 }

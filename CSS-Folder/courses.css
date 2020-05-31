@@ -11,7 +11,7 @@
   font-family: sans-serif;
   text-shadow: 0.0625rem 0.125rem black;
   text-align: center;
-  margin: 50px 20px 10px 20px;
+  margin: 3.125rem 1.25rem 0.625rem 1.25rem;
 }
 
 .courses-presentation h1 {
@@ -39,6 +39,7 @@
 
 .offered-courses .course {
   width: 16.875rem;
+  height: 12.9375rem;
   background-color: white;
   border: 0.625rem solid #4a7d6b;
   display: flex;
@@ -120,11 +121,11 @@
   padding: 1vh;
 }
 
-
 table {
   width: 100%;
   padding-bottom: 2vw;
 }
+
 table th, table td {
   padding: 1vh;
   font-size: 2vh;
@@ -132,6 +133,10 @@ table th, table td {
   background-color: #a35dff54;
 }
 
+.change-row{
+  background-color: rgb(253, 236, 0);
+  color: black;
+}
 
 /* Media Query Desktop*/
 
@@ -140,26 +145,22 @@ table th, table td {
 .gral-container {
   height: auto;
 }
+/*COURSES MAIN-------------------------------------------------------*/
+.courses-main{
+  margin-top: 1.875rem;
+}
+
 
 /* COURSES PRESENTATION-------------------------------------------------------*/
 
 .courses-presentation {
-  width: 100%;
-  text-shadow: 1px 2px black;
+  margin: 2.3125rem 1.25rem 0.625rem 1.25rem;
 }
 
-.courses-presentation h1 {
-  text-align: center;
-  font-size: 36px;
-  margin: 5px;
-}
-
+.courses-presentation h1,
 .courses-presentation p {
   text-align: center;
-  font-size: 20px;
-  margin: 0px;
 }
-
 
 /* OFFERED COURSES-------------------------------------------------------*/
 
@@ -167,32 +168,18 @@ table th, table td {
   width: 100%;
 }
 
-.offered-courses .course {
-  width: 270px;
-  height: 207px;
-}
-
 .offered-courses img {
-  width: 179px;
-  height: 178px;
-  margin: 2px 0px 0px 0px;
-}
-
-.offered-courses h2 {
-  font-size: 16px;
-}
+  width: 11.1875rem;
+  height: 11.125rem;
+ }
 
 /*GENERAL INFORMATION OF COURSES ------------------------------------*/
 
 .general-information-courses {
   width: 100%;
-  margin-top: 23px;
-  font-size: 18px;
-  text-shadow: 1px 2px black;
 }
 .general-information-courses h1 {
-  font-size: 44px;
-  text-shadow: 2px 2px black;
+  font-size: 2.75rem;
 }
 .general-information-courses h2 img {
   padding-right: 1rem;
@@ -214,7 +201,7 @@ table th, table td {
 }
 
 table th, table td {
-  padding: 9px;
+  padding: 0.5625rem;
 }
 
 }
