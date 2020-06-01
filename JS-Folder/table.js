@@ -23,7 +23,6 @@ function StartPage(){
     ];
 
     let tbody = document.querySelector('#tbody');
-    let table = document.querySelector('#table');
 
     let inputCourse = document.querySelector('#course');
     let inputDuration = document.querySelector('#duration');
@@ -44,7 +43,7 @@ function StartPage(){
 
     buttonDeletedAll.addEventListener('click', ()=>{
         /*clean tbody*/
-        for(let index = 0; index < arr_table.length; index ++){
+        for(let index = 0; index < arr_table.length; index++){
             tbody.lastChild.remove();
         }
         /*clean arr_table*/
@@ -94,19 +93,19 @@ function StartPage(){
     function AddTable(arr_table, tbody, indexRow){
             /*create row*/
             let tr = document.createElement("tr");
-            /*load data cell courses in 1 cell*/
+            /*load data courses in 1 cell*/
             let td1 = document.createElement("td");
             td1.innerText = arr_table[indexRow].course;
             tr.appendChild(td1);
-            /*load data cell courses in 2 cell*/
+            /*load data duration in 2 cell*/
             let td2 = document.createElement("td");
             td2.innerText = arr_table[indexRow].duration;
             tr.appendChild(td2);
-            /*load data cell courses in 3 cell*/
+            /*load data subject in 3 cell*/
             let td3 = document.createElement("td");
             td3.innerText = arr_table[indexRow].subject;
             tr.appendChild(td3);
-            /*load data cell courses in 4 cell*/
+            /*load data topics in 4 cell*/
             let td4 = document.createElement("td");
             td4.innerText = arr_table[indexRow].topics;
             tr.appendChild(td4);
@@ -114,7 +113,7 @@ function StartPage(){
             if(td2.innerText == "7 weeks long"){
                 tr.classList.add('change-row');
             }
-           /*load row in 1 tbody*/
+           /*load row in final of tbody*/
             tbody.appendChild(tr);
     }
 }
